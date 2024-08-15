@@ -1,0 +1,95 @@
+name: SustentApp - Staging
+
+on:
+  workflow_dispatch:
+    
+  push:
+    branches:
+      - release/*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --no-restore
+
+      - name: Test
+        run: dotnet test --no-build --collect:"XPlat Code Coverage" --results-directory ./coverage
+
+  deploy:
+    runs-on: ubuntu-latest
+    environment: sustentapp-api-hml
+    steps:
+
+      - name: Check if secrets are configured
+        run: |
+          if [ -z "${{ secrets.DB_SERVER }}" ]; then
+            echo "SECRET_NAME_1 is not set"
+            exit 1
+          fi
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Change enviroment variables
+        uses: alexander-trishin/replace-token@v1
+        with:
+          target: ./SustentApp.API/appsettings.Staging.json
+          variables-secret-json: ${{ toJson(secrets) }}
+          follow-symbolic-links: false
+
+      - name: Update database
+        run: |
+          dotnet tool install --global dotnet-ef
+          dotnet tool restore
+          dotnet ef database update -p ./SustentApp.Infrastructure/SustentApp.Infrastructure.csproj -s ./SustentApp.API/SustentApp.API.csproj -- --environment Staging
+        env:
+          ASPNETCORE_ENVIRONMENT: Staging
+
+      - name: Build Docker image
+        run:
+          docker build -t sustentapp-api:latest -f ./SustentApp.API/dockerfile .
+
+      - name: Save Docker image to file
+        run: docker save sustentapp-api:latest | gzip > sustentapp-api.tar.gz
+
+      - name: Copy Docker image to VM
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          source: "./sustentapp-api.tar.gz"
+          target: "/home/${{ secrets.SSH_USERNAME }}/sustentapp-api.tar.gz"
+
+      - name: Deploy to VM
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            docker load < /home/${{ secrets.SSH_USERNAME }}/sustentapp-api.tar.gz
+            docker stop sustentapp-api || true
+            docker rm sustentapp-api || true
+            docker run -d --name sustentapp-api -p 80:8080 \
+              -e ENVIROMENT=Staging \
+              sustentapp-api:latest

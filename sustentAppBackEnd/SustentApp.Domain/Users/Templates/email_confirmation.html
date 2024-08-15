@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html>
+<body>
+    <div style='background-color:#F5F5F5;color:#262626;font-family:"Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;font-size:16px;font-weight:400;letter-spacing:0.15008px;line-height:1.5;margin:0;padding:32px 0;min-height:100%;width:100%'>
+        <table align="center"
+               width="100%"
+               style="margin:0 auto;max-width:600px;background-color:#FFFFFF"
+               role="presentation"
+               cellspacing="0"
+               cellpadding="0"
+               border="0">
+            <tbody>
+                <tr style="width:100%">
+                    <td>
+                        <h2 style="color:#FFFFFF;background-color:#059669;font-weight:bold;margin:0;font-size:24px;padding:16px 24px 16px 24px">
+                            Bem-vindo ao SustentApp!
+                        </h2>
+                        <div style="font-weight:normal;padding:16px 24px 16px 24px">
+                            <p>Olá, {{ username }}!</p>
+                            <p>
+                                Seja bem-vindo(a) ao SustentApp, sustentabilidade na palma da
+                                sua mão! Estamos entusiasmados em tê-lo(a) conosco nesta
+                                jornada rumo a um mundo mais sustentável.
+                            </p>
+                            <p>
+                                Para completar seu cadastro e garantir a segurança da sua
+                                conta, por favor, confirme seu e-mail utilizando o código
+                                abaixo:
+                            </p>
+                            <h3>
+                                <strong>Código de Confirmação:</strong> {{ confirmationCode }}
+                            </h3>
+                            <p>
+                                Se preferir, também pode
+                                <a href="{{ link }}" target="_blank">clicar aqui</a> para
+                                confirmar seu e-mail.
+                            </p>
+                            <p>Qualquer dúvida, estamos à disposição!</p>
+                        </div>
+                        <div style="padding:16px 0px 0px 0px">
+                            <hr style="width:100%;border:none;border-top:1px solid #CCCCCC;margin:0" />
+                        </div>
+                        <div style="color:#16A34A;font-weight:normal;padding:16px 24px 0px 24px">
+                            SustentApp - sustentabilidade na palma da mão
+                        </div>
+                        <div style="font-size:12px;font-weight:normal;padding:0px 24px 16px 24px">
+                            Se você não se cadastrou no SustentApp, por favor, desconsidere
+                            este e-mail.
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
