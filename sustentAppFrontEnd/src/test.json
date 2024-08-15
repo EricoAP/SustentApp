@@ -1,0 +1,694 @@
+{
+    "order": {
+        "id": 6063105605923,
+        "admin_graphql_api_id": "gid:\/\/shopify\/Order\/6063105605923",
+        "app_id": 580111,
+        "browser_ip": "191.17.222.190",
+        "buyer_accepts_marketing": true,
+        "cancel_reason": "customer",
+        "cancelled_at": "2024-07-18T17:04:38-03:00",
+        "cart_token": "Z2NwLXVzLWVhc3QxOjAxSjMzUEpTWjQ1MlYwWDU2MjRRMlNQTUJW",
+        "checkout_id": 37802242933027,
+        "checkout_token": "770c6eb6743d7e48df5727a15e4e316f",
+        "client_details": {
+            "accept_language": "pt-BR",
+            "browser_height": null,
+            "browser_ip": "191.17.222.190",
+            "browser_width": null,
+            "session_hash": null,
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/126.0.0.0 Safari\/537.36"
+        },
+        "closed_at": "2024-07-18T17:04:39-03:00",
+        "confirmation_number": "3HA4CKACC",
+        "confirmed": true,
+        "contact_email": "matheus@disco-tec.com",
+        "created_at": "2024-07-18T17:03:48-03:00",
+        "currency": "BRL",
+        "current_subtotal_price": "0.00",
+        "current_subtotal_price_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "current_total_additional_fees_set": null,
+        "current_total_discounts": "0.00",
+        "current_total_discounts_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "current_total_duties_set": null,
+        "current_total_price": "0.00",
+        "current_total_price_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "current_total_tax": "0.00",
+        "current_total_tax_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "customer_locale": "pt-BR",
+        "device_id": null,
+        "discount_codes": [
+            {
+                "code": "matheus",
+                "amount": "13.50",
+                "type": "percentage"
+            }
+        ],
+        "email": "matheus@disco-tec.com",
+        "estimated_taxes": false,
+        "financial_status": "refunded",
+        "fulfillment_status": null,
+        "landing_site": "\/pages\/lp-dena",
+        "landing_site_ref": null,
+        "location_id": null,
+        "merchant_of_record_app_id": null,
+        "name": "#2228",
+        "note": null,
+        "note_attributes": [
+            {
+                "name": "payment_method",
+                "value": "master"
+            },
+            {
+                "name": "payment_type",
+                "value": "credit_card"
+            },
+            {
+                "name": "payment_installment",
+                "value": 1
+            },
+            {
+                "name": "payment_approval_date",
+                "value": "2024-07-18T16:03:46.000-04:00"
+            },
+            {
+                "name": "payment_total_paid_amount",
+                "value": 1.5
+            },
+            {
+                "name": "billing_street_name",
+                "value": "Rua da Pescada"
+            },
+            {
+                "name": "info_document",
+                "value": "43207827802"
+            },
+            {
+                "name": "billing_street_number",
+                "value": "192"
+            },
+            {
+                "name": "billing_street_complement",
+                "value": "casa"
+            },
+            {
+                "name": "billing_city",
+                "value": "Santana de Parnaíba"
+            },
+            {
+                "name": "billing_neighborhood",
+                "value": "Cidade São Pedro - Gleba B"
+            },
+            {
+                "name": "billing_full_address",
+                "value": "Rua da Pescada, 192 - casa - Cidade São Pedro - Gleba B, Santana de Parnaíba\/SP, 06535-265, Brazil"
+            },
+            {
+                "name": "shipping_street_name",
+                "value": "Rua da Pescada"
+            },
+            {
+                "name": "shipping_street_number",
+                "value": "192"
+            },
+            {
+                "name": "shipping_street_complement",
+                "value": "casa"
+            },
+            {
+                "name": "shipping_neighborhood",
+                "value": "Cidade São Pedro - Gleba B"
+            },
+            {
+                "name": "shipping_city",
+                "value": "Santana de Parnaíba"
+            },
+            {
+                "name": "shipping_full_address",
+                "value": "Rua da Pescada, 192 - casa - Bairro Cidade São Pedro - Gleba B, Santana de Parnaíba\/SP, 06535-265, Brazil"
+            }
+        ],
+        "number": 1228,
+        "order_number": 2228,
+        "order_status_url": "https:\/\/linhahum.com.br\/82644074787\/orders\/6a8531d03379ead11c4277a9d4eb832e\/authenticate?key=e385b1c9486a155d8390cbd6e750e03b\u0026none=VQxWAlRFXQ",
+        "original_total_additional_fees_set": null,
+        "original_total_duties_set": null,
+        "payment_gateway_names": [
+            "Mercado Pago Cartões"
+        ],
+        "phone": null,
+        "po_number": null,
+        "presentment_currency": "BRL",
+        "processed_at": "2024-07-18T17:03:47-03:00",
+        "reference": "a1e35bad9350a69f29a26b6aa17a963d",
+        "referring_site": "",
+        "source_identifier": "a1e35bad9350a69f29a26b6aa17a963d",
+        "source_name": "web",
+        "source_url": null,
+        "subtotal_price": "1.50",
+        "subtotal_price_set": {
+            "shop_money": {
+                "amount": "1.50",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "1.50",
+                "currency_code": "BRL"
+            }
+        },
+        "tags": "",
+        "tax_exempt": false,
+        "tax_lines": [],
+        "taxes_included": false,
+        "test": false,
+        "token": "6a8531d03379ead11c4277a9d4eb832e",
+        "total_discounts": "13.50",
+        "total_discounts_set": {
+            "shop_money": {
+                "amount": "13.50",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "13.50",
+                "currency_code": "BRL"
+            }
+        },
+        "total_line_items_price": "15.00",
+        "total_line_items_price_set": {
+            "shop_money": {
+                "amount": "15.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "15.00",
+                "currency_code": "BRL"
+            }
+        },
+        "total_outstanding": "0.00",
+        "total_price": "1.50",
+        "total_price_set": {
+            "shop_money": {
+                "amount": "1.50",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "1.50",
+                "currency_code": "BRL"
+            }
+        },
+        "total_shipping_price_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "total_tax": "0.00",
+        "total_tax_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "total_tip_received": "0.00",
+        "total_weight": 36,
+        "updated_at": "2024-07-18T17:17:42-03:00",
+        "user_id": null,
+        "billing_address": {
+            "first_name": "matheus",
+            "address1": "Rua da Pescada, ⁠192",
+            "phone": "11972660228",
+            "city": "Santana de Parnaíba",
+            "zip": "06535-265",
+            "province": "São Paulo",
+            "country": "Brazil",
+            "last_name": "lacerda",
+            "address2": "casa, ⁠Cidade São Pedro - Gleba B",
+            "company": null,
+            "latitude": null,
+            "longitude": null,
+            "name": "matheus lacerda",
+            "country_code": "BR",
+            "province_code": "SP"
+        },
+        "customer": {
+            "id": 7622437667107,
+            "email": "matheus@disco-tec.com",
+            "created_at": "2023-11-10T14:21:36-03:00",
+            "updated_at": "2024-07-18T17:04:41-03:00",
+            "first_name": "Matheus",
+            "last_name": "lacerda",
+            "state": "enabled",
+            "note": null,
+            "verified_email": true,
+            "multipass_identifier": null,
+            "tax_exempt": false,
+            "phone": null,
+            "email_marketing_consent": {
+                "state": "subscribed",
+                "opt_in_level": "single_opt_in",
+                "consent_updated_at": "2024-07-18T15:03:12-03:00"
+            },
+            "sms_marketing_consent": null,
+            "tags": "Wrote Judge.me web review",
+            "currency": "BRL",
+            "accepts_marketing": true,
+            "accepts_marketing_updated_at": "2024-07-18T15:03:12-03:00",
+            "marketing_opt_in_level": "single_opt_in",
+            "tax_exemptions": [],
+            "admin_graphql_api_id": "gid:\/\/shopify\/Customer\/7622437667107",
+            "default_address": {
+                "id": 10535088128291,
+                "customer_id": 7622437667107,
+                "first_name": "matheus",
+                "last_name": "lacerda",
+                "company": null,
+                "address1": "Rua da Pescada, ⁠192",
+                "address2": "casa, ⁠Cidade São Pedro - Gleba B",
+                "city": "Santana de Parnaíba",
+                "province": "São Paulo",
+                "country": "Brazil",
+                "zip": "06535-265",
+                "phone": "11972660228",
+                "name": "matheus lacerda",
+                "province_code": "SP",
+                "country_code": "BR",
+                "country_name": "Brazil",
+                "default": true
+            }
+        },
+        "discount_applications": [
+            {
+                "target_type": "shipping_line",
+                "type": "automatic",
+                "value": "100.0",
+                "value_type": "percentage",
+                "allocation_method": "each",
+                "target_selection": "all",
+                "title": "Frete Gratis para todo o Brasil"
+            },
+            {
+                "target_type": "line_item",
+                "type": "discount_code",
+                "value": "90.0",
+                "value_type": "percentage",
+                "allocation_method": "across",
+                "target_selection": "all",
+                "code": "matheus"
+            }
+        ],
+        "fulfillments": [],
+        "line_items": [
+            {
+                "id": 15232146506019,
+                "admin_graphql_api_id": "gid:\/\/shopify\/LineItem\/15232146506019",
+                "attributed_staffs": [],
+                "fulfillable_quantity": 0,
+                "fulfillment_service": "manual",
+                "fulfillment_status": null,
+                "gift_card": false,
+                "grams": 36,
+                "name": "Chá Sense | Chá Relaxante e Digestivo | Linhahum | Caixa com 30 sachês | Sabor Camomila e Especiarias",
+                "price": "15.00",
+                "price_set": {
+                    "shop_money": {
+                        "amount": "15.00",
+                        "currency_code": "BRL"
+                    },
+                    "presentment_money": {
+                        "amount": "15.00",
+                        "currency_code": "BRL"
+                    }
+                },
+                "product_exists": true,
+                "product_id": 8866926002467,
+                "properties": [],
+                "quantity": 1,
+                "requires_shipping": true,
+                "sku": "",
+                "taxable": true,
+                "title": "Chá Sense | Chá Relaxante e Digestivo | Linhahum | Caixa com 30 sachês | Sabor Camomila e Especiarias",
+                "total_discount": "0.00",
+                "total_discount_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    }
+                },
+                "variant_id": 47399286178083,
+                "variant_inventory_management": "shopify",
+                "variant_title": null,
+                "vendor": "linhahum",
+                "tax_lines": [],
+                "duties": [],
+                "discount_allocations": [
+                    {
+                        "amount": "13.50",
+                        "amount_set": {
+                            "shop_money": {
+                                "amount": "13.50",
+                                "currency_code": "BRL"
+                            },
+                            "presentment_money": {
+                                "amount": "13.50",
+                                "currency_code": "BRL"
+                            }
+                        },
+                        "discount_application_index": 1
+                    }
+                ]
+            }
+        ],
+        "payment_terms": null,
+        "refunds": [
+            {
+                "id": 969071821091,
+                "admin_graphql_api_id": "gid:\/\/shopify\/Refund\/969071821091",
+                "created_at": "2024-07-18T17:04:37-03:00",
+                "note": "Pedido cancelado",
+                "order_id": 6063105605923,
+                "processed_at": "2024-07-18T17:04:37-03:00",
+                "restock": true,
+                "total_duties_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    }
+                },
+                "user_id": 107810029859,
+                "order_adjustments": [
+                    {
+                        "id": 298179133731,
+                        "amount": "1.50",
+                        "amount_set": {
+                            "shop_money": {
+                                "amount": "1.50",
+                                "currency_code": "BRL"
+                            },
+                            "presentment_money": {
+                                "amount": "1.50",
+                                "currency_code": "BRL"
+                            }
+                        },
+                        "kind": "refund_discrepancy",
+                        "order_id": 6063105605923,
+                        "reason": "Refund discrepancy",
+                        "refund_id": 969071821091,
+                        "tax_amount": "0.00",
+                        "tax_amount_set": {
+                            "shop_money": {
+                                "amount": "0.00",
+                                "currency_code": "BRL"
+                            },
+                            "presentment_money": {
+                                "amount": "0.00",
+                                "currency_code": "BRL"
+                            }
+                        }
+                    },
+                    {
+                        "id": 298179166499,
+                        "amount": "-1.50",
+                        "amount_set": {
+                            "shop_money": {
+                                "amount": "-1.50",
+                                "currency_code": "BRL"
+                            },
+                            "presentment_money": {
+                                "amount": "-1.50",
+                                "currency_code": "BRL"
+                            }
+                        },
+                        "kind": "refund_discrepancy",
+                        "order_id": 6063105605923,
+                        "reason": "Pending refund discrepancy",
+                        "refund_id": 969071821091,
+                        "tax_amount": "0.00",
+                        "tax_amount_set": {
+                            "shop_money": {
+                                "amount": "0.00",
+                                "currency_code": "BRL"
+                            },
+                            "presentment_money": {
+                                "amount": "0.00",
+                                "currency_code": "BRL"
+                            }
+                        }
+                    }
+                ],
+                "transactions": [
+                    {
+                        "id": 7368117715235,
+                        "admin_graphql_api_id": "gid:\/\/shopify\/OrderTransaction\/7368117715235",
+                        "amount": "1.50",
+                        "authorization": null,
+                        "created_at": "2024-07-18T17:04:37-03:00",
+                        "currency": "BRL",
+                        "device_id": null,
+                        "error_code": null,
+                        "gateway": "Mercado Pago Cartões",
+                        "kind": "refund",
+                        "location_id": null,
+                        "message": null,
+                        "order_id": 6063105605923,
+                        "parent_id": 7368112996643,
+                        "payment_id": "SEl2xykVvEPaL6aWfBO3wKzj",
+                        "processed_at": "2024-07-18T17:04:37-03:00",
+                        "receipt": {
+                            "refund_id": "SEl2xykVvEPaL6aWfBO3wKzj"
+                        },
+                        "source_name": "1830279",
+                        "status": "success",
+                        "test": false,
+                        "user_id": 107810029859,
+                        "payment_details": {
+                            "credit_card_bin": "516292",
+                            "avs_result_code": null,
+                            "cvv_result_code": null,
+                            "credit_card_number": "•••• •••• •••• 1346",
+                            "credit_card_company": "Mastercard",
+                            "buyer_action_info": null,
+                            "credit_card_name": "Matheus L Alves",
+                            "credit_card_wallet": null,
+                            "credit_card_expiration_month": 12,
+                            "credit_card_expiration_year": 2030,
+                            "payment_method_name": "master"
+                        }
+                    }
+                ],
+                "refund_line_items": [
+                    {
+                        "id": 583854948643,
+                        "line_item_id": 15232146506019,
+                        "location_id": 91507392803,
+                        "quantity": 1,
+                        "restock_type": "cancel",
+                        "subtotal": 1.5,
+                        "subtotal_set": {
+                            "shop_money": {
+                                "amount": "1.50",
+                                "currency_code": "BRL"
+                            },
+                            "presentment_money": {
+                                "amount": "1.50",
+                                "currency_code": "BRL"
+                            }
+                        },
+                        "total_tax": 0.0,
+                        "total_tax_set": {
+                            "shop_money": {
+                                "amount": "0.00",
+                                "currency_code": "BRL"
+                            },
+                            "presentment_money": {
+                                "amount": "0.00",
+                                "currency_code": "BRL"
+                            }
+                        },
+                        "line_item": {
+                            "id": 15232146506019,
+                            "admin_graphql_api_id": "gid:\/\/shopify\/LineItem\/15232146506019",
+                            "attributed_staffs": [],
+                            "fulfillable_quantity": 0,
+                            "fulfillment_service": "manual",
+                            "fulfillment_status": null,
+                            "gift_card": false,
+                            "grams": 36,
+                            "name": "Chá Sense | Chá Relaxante e Digestivo | Linhahum | Caixa com 30 sachês | Sabor Camomila e Especiarias",
+                            "price": "15.00",
+                            "price_set": {
+                                "shop_money": {
+                                    "amount": "15.00",
+                                    "currency_code": "BRL"
+                                },
+                                "presentment_money": {
+                                    "amount": "15.00",
+                                    "currency_code": "BRL"
+                                }
+                            },
+                            "product_exists": true,
+                            "product_id": 8866926002467,
+                            "properties": [],
+                            "quantity": 1,
+                            "requires_shipping": true,
+                            "sku": "",
+                            "taxable": true,
+                            "title": "Chá Sense | Chá Relaxante e Digestivo | Linhahum | Caixa com 30 sachês | Sabor Camomila e Especiarias",
+                            "total_discount": "0.00",
+                            "total_discount_set": {
+                                "shop_money": {
+                                    "amount": "0.00",
+                                    "currency_code": "BRL"
+                                },
+                                "presentment_money": {
+                                    "amount": "0.00",
+                                    "currency_code": "BRL"
+                                }
+                            },
+                            "variant_id": 47399286178083,
+                            "variant_inventory_management": "shopify",
+                            "variant_title": null,
+                            "vendor": "linhahum",
+                            "tax_lines": [],
+                            "duties": [],
+                            "discount_allocations": [
+                                {
+                                    "amount": "13.50",
+                                    "amount_set": {
+                                        "shop_money": {
+                                            "amount": "13.50",
+                                            "currency_code": "BRL"
+                                        },
+                                        "presentment_money": {
+                                            "amount": "13.50",
+                                            "currency_code": "BRL"
+                                        }
+                                    },
+                                    "discount_application_index": 1
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "duties": []
+            }
+        ],
+        "shipping_address": {
+            "first_name": "matheus",
+            "address1": "Rua da Pescada, ⁠192",
+            "phone": "11972660228",
+            "city": "Santana de Parnaíba",
+            "zip": "06535-265",
+            "province": "São Paulo",
+            "country": "Brazil",
+            "last_name": "lacerda",
+            "address2": "casa, ⁠Cidade São Pedro - Gleba B",
+            "company": null,
+            "latitude": -23.4319111,
+            "longitude": -46.8503946,
+            "name": "matheus lacerda",
+            "country_code": "BR",
+            "province_code": "SP"
+        },
+        "shipping_lines": [
+            {
+                "id": 4957777133859,
+                "carrier_identifier": "650f1a14fa979ec5c74d063e968411d4",
+                "code": "03220",
+                "discounted_price": "0.00",
+                "discounted_price_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    }
+                },
+                "phone": null,
+                "price": "0.00",
+                "price_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    }
+                },
+                "requested_fulfillment_service_id": null,
+                "source": "Frenet",
+                "title": "Frete Economico",
+                "tax_lines": [],
+                "discount_allocations": [
+                    {
+                        "amount": "0.00",
+                        "amount_set": {
+                            "shop_money": {
+                                "amount": "0.00",
+                                "currency_code": "BRL"
+                            },
+                            "presentment_money": {
+                                "amount": "0.00",
+                                "currency_code": "BRL"
+                            }
+                        },
+                        "discount_application_index": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

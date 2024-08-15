@@ -1,0 +1,15 @@
+<form [formGroup]="resetPasswordForm" class="user" (ngSubmit)="sendReset()">
+    <div class="mb-3">
+        <input formControlName="token" class="form-control form-control-user" type="text" id="token"
+            aria-describedby="tokenlHelp" placeholder="Digite o token recebido..." name="token">
+    </div>
+    <div class="mb-3">
+        <input formControlName="email" class="form-control form-control-user" type="email" id="email"
+            aria-describedby="emailHelp" placeholder="Digite seu endereço de email..." name="email">
+    </div>
+    <div class="mb-3">
+        <input formControlName="password" class="form-control form-control-user" type="password" id="password"
+            aria-describedby="passwordHelp" placeholder="Digite sua senha..." name="password">
+    </div>
+    <button class="btn btn-primary d-block btn-user w-100" type="submit">Enviar email</button>
+</form>

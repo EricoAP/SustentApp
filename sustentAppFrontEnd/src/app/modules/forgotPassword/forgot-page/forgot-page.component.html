@@ -1,0 +1,35 @@
+<div class="bg-gradient-primary" style="height: 100vh;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12 col-xl-10">
+                <div class="card shadow-lg o-hidden border-0 my-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-flex">
+                                <div class="flex-grow-1 bg-password-image" style="background-image: url(&quot;assets/img/dogs/image1.jpeg&quot;);"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h4 class="text-dark mb-2">Esqueceu sua senha?</h4>
+                                        <p class="mb-4">Digite o seu endereço de email para escolher uma nova senha!</p>
+                                    </div>
+                                    <app-forgot-form *ngIf="!this.step"></app-forgot-form>
+                                    <app-reset-form *ngIf="this.step"></app-reset-form>
+                                    <div class="text-center">
+                                        <hr><a class="small" href="/register">Criar uma nova conta</a>
+                                    </div>
+                                    <div class="text-center"><a class="small" href="/login">Já tem uma conta? Faça login!</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery.js"></script>
+    <script src="assets/js/theme.js"></script>
+</div>

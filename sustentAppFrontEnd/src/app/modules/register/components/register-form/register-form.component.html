@@ -1,0 +1,72 @@
+<form class="user" [formGroup]="userForm" (ngSubmit)="registerUser()">
+    <div class="row mb-3">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <input class="form-control form-control-user" type="text" id="FirstName" placeholder="Nome"
+                name="first_name" formControlName="name">
+        </div>
+        <div class="col-sm-6">
+            <input class="form-control form-control-user" type="text" id="CPF" placeholder="CPF" name="CPF"
+                formControlName="document">
+        </div>
+    </div>
+    <div class="mb-3">
+        <input class="form-control form-control-user" type="email" id="InputEmail" aria-describedby="emailHelp"
+            placeholder="Email" name="email" formControlName="email">
+    </div>
+    <div class="mb-3">
+        <input class="form-control form-control-user" type="phone" id="Celular" aria-describedby="emailHelp"
+            placeholder="Celular" name="Celular" formControlName="phone">
+    </div>
+
+
+    <form class="user" [formGroup]="adressForm">
+        <div class="row mb-3">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <input class="form-control form-control-user" type="Street" id="Street" placeholder="Street"
+                    name="Street" formControlName="street">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-6">
+                <input class="form-control form-control-user" type="text" id="Number" placeholder="Number"
+                    name="Number" formControlName="number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-6">
+                <input class="form-control form-control-user" type="Complement" id="Complement" placeholder="Complement"
+                    name="Complement" formControlName="complement">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <input class="form-control form-control-user" type="Neighborhood" id="Neighborhood"
+                placeholder="Neighborhood" name="Neighborhood" formControlName="neighborhood">
+        </div>
+        <div class="col-sm-6">
+            <input class="form-control form-control-user" type="City" id="City" placeholder="City" name="City"
+                formControlName="city">
+        </div>
+        <div class="col-sm-6">
+            <input class="form-control form-control-user" type="State" id="State" placeholder="State" name="State"
+                formControlName="state">
+        </div>
+        <div class="col-sm-6">
+            <input class="form-control form-control-user" type="Neighborhood" id="ZipCode" placeholder="ZipCode"
+                name="ZipCode" formControlName="zipCode">
+        </div>
+    </form>
+
+
+    <div class="row mb-3">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <input class="form-control form-control-user" type="password" id="PasswordInput" placeholder="Senha"
+                name="password">
+        </div>
+        <div class="col-sm-6">
+            <input class="form-control form-control-user" type="password" id="RepeatPasswordInput"
+                placeholder="Confirme sua senha" name="password_repeat" formControlName="password">
+        </div>
+    </div>
+    <button class="btn btn-primary d-block btn-user w-100" type="submit">Cadastrar conta</button>
+    <hr>
+</form>
